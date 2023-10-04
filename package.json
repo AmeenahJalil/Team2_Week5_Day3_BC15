@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "connect": "node -r dotenv/config connect.js",
     "create-tables": "node -r dotenv/config createTables.js",
