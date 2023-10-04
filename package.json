@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "connect": "node -r dotenv/config connect.js",
+    "create-tables": "node -r dotenv/config createTables.js",
+    "drop-tables": "node -r dotenv/config dropTables.js",
+    "seed-data": "node -r dotenv/config seedData.js",
+    "reset-database": "node -r dotenv/config resetDatabase.js"
   },
   "keywords": [],
   "author": "",
